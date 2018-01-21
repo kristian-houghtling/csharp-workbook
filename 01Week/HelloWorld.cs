@@ -4,7 +4,7 @@ public class Program
 {
     public static void Main()
     {
-        Console.WriteLine(value: "Hello World Test");
+        Console.WriteLine("Hello World!");
         Console.ReadLine();
     }
 }
