@@ -1,5 +1,4 @@
-using System;
-using System.IO;
+﻿using System;
 
 public class Program
 {
@@ -22,9 +21,9 @@ public class Program
 
         // Adding two numbers
         Console.WriteLine("Please enter the first number: ");
-        num1 = Convert.ToInt32(Console.ReadLine());
+        num1 = int.Parse(Console.ReadLine());
         Console.WriteLine("Please enter the second number: ");
-        num2 = Convert.ToInt32(Console.ReadLine());
+        num2 = int.Parse(Console.ReadLine());
         Console.WriteLine("Your two numbers added together = " + (num1 + num2));
 
         System.Threading.Thread.Sleep(2000);
@@ -32,7 +31,7 @@ public class Program
 
         // Yards to inches
         Console.WriteLine("Let's convert Yards to Inches. \nPlease enter how many Yards: ");
-        yards = Convert.ToInt32(Console.ReadLine());
+        yards = int.Parse(Console.ReadLine());
         inches = yards * 36;
         Console.WriteLine(yards + " yards = " + inches + " inches!");
 
@@ -41,7 +40,7 @@ public class Program
 
         // Display the variable num multiplied by itself
         Console.WriteLine("Lets see what a number multiplied by itself equals. \nPlease enter a number you'd like to multiplied by itself: ");
-        num = Convert.ToInt32(Console.ReadLine());
+        num = int.Parse(Console.ReadLine());
         num = num * num;
         Console.WriteLine("Your number multiplied by itself equals: " + num);
 
